@@ -7,7 +7,7 @@ package com.example.dell.coolweather.db;
 public class Province {
     private int id;
     private String provinceName;
-    private String provinceCode;
+    private int provinceCode;
 
 
     public int getId() {
@@ -26,11 +26,13 @@ public class Province {
         this.provinceName = provinceName;
     }
 
-    public String getProvinceCode() {
+    public int getProvinceCode() {
         return provinceCode;
     }
 
-    public void setProvinceCode(String provinceCode) {
+    public void setProvinceCode( int provinceCode) {
         this.provinceCode = provinceCode;
     }
+
+
 }
